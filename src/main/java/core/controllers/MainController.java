@@ -3,6 +3,7 @@ package core.controllers;
 import javafx.fxml.FXML;
 import javafx.scene.control.ListView;
 import core.models.Team;
+import javafx.scene.input.MouseEvent;
 
 public class MainController {
     @FXML
@@ -19,7 +20,11 @@ public class MainController {
     }
 
     @FXML
-    private void handleScheduleMatch() {
-        // Handle scheduling a new match
+    public void Schedule(MouseEvent mouseEvent) {
+
+    }
+
+    @FXML
+    public void saveTeam(MouseEvent mouseEvent) {
     }
 }

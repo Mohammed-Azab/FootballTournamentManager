@@ -4,7 +4,7 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane fx:controller="core.controllers.MainController" xmlns:fx="http://javafx.com/fxml/1">
-    <TextField fx:id="txtTeamName" layoutX="50" layoutY="50" promptText="Enter Team Name"/>
-    <Button text="Save" layoutX="50" layoutY="100" fx:id="btnSaveTeam"/>
+<AnchorPane prefHeight="139.0" prefWidth="302.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1" fx:controller="core.controllers.MainController">
+    <TextField fx:id="txtTeamName" layoutX="50" layoutY="50" prefHeight="24.0" prefWidth="223.0" promptText="Enter Team Name" />
+    <Button fx:id="btnSaveTeam" layoutX="126.0" layoutY="92.0" onMouseClicked="#saveTeam" text="Save" />
 </AnchorPane>
