@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:controller="core.controllers.MainController" xmlns:fx="http://javafx.com/fxml/1">
+    <TextField fx:id="txtEditTeam1" layoutX="50" layoutY="50" promptText="Edit Team 1"/>
+    <TextField fx:id="txtEditTeam2" layoutX="50" layoutY="100" promptText="Edit Team 2"/>
+    <Button text="Update" layoutX="50" layoutY="150" fx:id="btnUpdateMatch"/>
+</AnchorPane>
+

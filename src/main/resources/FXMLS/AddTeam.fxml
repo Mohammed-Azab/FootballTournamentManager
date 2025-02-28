@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:controller="core.controllers.MainController" xmlns:fx="http://javafx.com/fxml/1">
+    <TextField fx:id="txtTeamName" layoutX="50" layoutY="50" promptText="Enter Team Name"/>
+    <Button text="Save" layoutX="50" layoutY="100" fx:id="btnSaveTeam"/>
+</AnchorPane>
