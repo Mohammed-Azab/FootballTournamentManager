@@ -5,6 +5,7 @@ import java.util.List;
 public class Team {
     private String name;
     private List<Player> players;
+    private int score;
 
     public Team(String name){
         this.name = name;
@@ -37,4 +38,20 @@ public class Team {
     public void removePlayer(Player player) {
         players.remove(player);
     }
+    public int getScore() {
+        return score;
+    }
+    public void setScore(int score) {
+        this.score = score;
+    }
+    public void increaseScore(int score) {
+        this.score += score;
+    }
+    public void decreaseScore(int score) {
+        this.score -= score;
+    }
+    public String toString() {
+        return name;
+    }
+
 }
