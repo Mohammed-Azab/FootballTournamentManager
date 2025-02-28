@@ -1,8 +1,15 @@
-module com.example.footballtournamentmanager {
+module footballtournamentmanager {
     requires javafx.controls;
+    requires javafx.base;
     requires javafx.fxml;
+    requires javafx.media;
+    requires transitive javafx.graphics;
+    requires org.apache.poi.ooxml;
+    requires java.desktop;
+    requires java.logging;
 
-
-    opens com.example.footballtournamentmanager to javafx.fxml;
-    exports com.example.footballtournamentmanager;
+    exports core;
+    exports core.models;
+    exports core.controllers;
+    opens core to javafx.fxml;
 }

@@ -2,7 +2,7 @@ package core.controllers;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.ListView;
-import models.Team;
+import core.models.Team;
 
 public class MainController {
     @FXML
