@@ -12,4 +12,6 @@ module footballtournamentmanager {
     exports core.models;
     exports core.controllers;
     opens core to javafx.fxml;
+    opens core.controllers to javafx.fxml;
+
 }
