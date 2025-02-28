@@ -96,7 +96,7 @@
                 <artifactId>javafx-maven-plugin</artifactId>
                 <version>0.0.8</version>
                 <configuration>
-                    <mainClass>steamTables.Main</mainClass> <!-- Main class entry point -->
+                    <mainClass>core.App</mainClass> <!-- Main class entry point -->
                 </configuration>
             </plugin>
         </plugins>
