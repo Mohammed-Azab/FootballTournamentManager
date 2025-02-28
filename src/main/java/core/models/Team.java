@@ -6,6 +6,10 @@ public class Team {
     private String name;
     private List<Player> players;
 
+    public Team(String name){
+        this.name = name;
+    }
+
     public Team(String name, List<Player> players) {
         this.name = name;
         this.players = players;
@@ -25,5 +29,12 @@ public class Team {
 
     public void setPlayers(List<Player> players) {
         this.players = players;
+    }
+    public void addPlayer(Player player) {
+        player.assignTeam(this);
+        players.add(player);
+    }
+    public void removePlayer(Player player) {
+        players.remove(player);
     }
 }
